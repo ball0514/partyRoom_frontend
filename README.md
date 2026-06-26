@@ -116,14 +116,14 @@ party-room/
 └── README.md
 ```
 
-⚙️ 安裝與執行
+## ⚙️ 安裝與執行
 
-前置準備
+### 前置準備
 
 1. 確保已安裝 Node.js (建議 v18 以上)。
 2. 在 Firebase Console 建立專案，取得 Firebase Config。
 
-步驟
+### 步驟
 
 1. 建立 party-room 資料夾
 2. 進入 party-room 資料夾，分別建立 frontend、backend 資料夾
@@ -155,6 +155,6 @@ cd backend && npm run dev
 cd frontend && npm run dev
 ```
 
-💡 開發初衷
+## 💡 開發初衷
 
-本專案參考PartyTu(https://partytu.app/)的概念，練習使用前端 React + TypeScript 以及後端 socket.io 等技術。旨在解決遠端互動時「音訊同步困難」的痛點，透過指令式同步架構，將複雜的網路串流需求簡化為高效能的指令傳遞。這是一個持續演進的專案，歡迎任何建議與 Pull Request。
+本專案參考[PartyTu](https://partytu.app/) 的概念，練習使用前端 React + TypeScript 以及後端 socket.io 等技術。旨在解決遠端互動時「音訊同步困難」的痛點，透過指令式同步架構，將複雜的網路串流需求簡化為高效能的指令傳遞。這是一個持續演進的專案，歡迎任何建議與 Pull Request。
