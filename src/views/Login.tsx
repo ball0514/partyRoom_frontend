@@ -54,7 +54,7 @@ export default function Login() {
           <div className="mt-4 flex flex-col gap-3">
             <button
               onClick={loginWithGoogle}
-              className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-white text-slate-900 font-semibold rounded-lg transition-all duration-300 shadow-white/5 hover:shadow-[0_0_15px_3px_rgba(255,255,255,0.15)] hover:shadow-white/20"
+              className="w-full flex items-center justify-center gap-3 px-4 py-3 cursor-pointer bg-white text-slate-900 font-semibold rounded-lg transition-all duration-300 shadow-white/5 hover:shadow-[0_0_15px_3px_rgba(255,255,255,0.15)] hover:shadow-white/20"
             >
               <img
                 src="https://www.svgrepo.com/show/475656/google-color.svg"
